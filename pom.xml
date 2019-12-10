@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.rapidpm</groupId>
+    <artifactId>rapidpm-vaadin-dependencies-v14</artifactId>
+    <version>04.05.02-RPM</version>
+  </parent>
+
+
+  <groupId>org.example</groupId>
+  <artifactId>flow-design-pattern-delegation</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <properties>
+    <jdk.version>11</jdk.version>
+    <vaadin-v14.version>14.1.2</vaadin-v14.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.rapidpm.vaadin</groupId>
+      <artifactId>nano-vaadin-undertow</artifactId>
+      <version>01.00.03-RPM</version>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-lumo-theme</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-ordered-layout-flow</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-button-flow</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-text-field-flow</artifactId>
+    </dependency>
+  </dependencies>
+
+</project>
